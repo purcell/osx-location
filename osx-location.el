@@ -2,7 +2,8 @@
 
 ;; Copyright (C) 2012 Steve Purcell
 
-;; Author: Steve <steve@sanityinc.com>
+;; Author: Steve Purcell <steve@sanityinc.com>
+;; URL: https://github.com/purcell/osx-location
 ;; Keywords: convenience, calendar
 
 ;; This program is free software; you can redistribute it and/or modify
