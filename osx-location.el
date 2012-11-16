@@ -108,6 +108,7 @@ but also triggers `osx-location-scan-for-updates'."
 
 ;; Public interface
 
+;;;###autoload
 (defun osx-location-watch ()
   "Run the helper program in a buffer and respond to its output."
   (interactive)
