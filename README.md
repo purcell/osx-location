@@ -2,7 +2,7 @@ osx-location.el
 ===============
 
 This library uses OS X CoreLocation services to put useful
-information into variables `osx-location-latitude' and
+information into variables `osx-location-latitude` and
 `osx-location-longitude`.
 
 Installation
@@ -29,7 +29,7 @@ Start monitoring the location asynchronously like this:
 To add code which responds to location changes, use
 `osx-location-changed-hook`.  For example, you might add a hook
 function which updates `calendar-latitude` and `calendar-longitude`
-(defined in the built-in library `solar'), and then use
+(defined in the built-in library `solar`), and then use
 [rase.el](https://github.com/m00natic/rase) to execute code
 automatically at sunrise or sunset.
 
