@@ -126,6 +126,7 @@ but also triggers `osx-location-scan-for-updates'."
                                   (current-buffer)
                                   helper-path)))
         (set-process-filter proc 'osx-location-process-filter)
+        (set-process-query-on-exit-flag proc nil)
         (set (make-local-variable 'kill-buffer-hook)
              (lambda ()
                (let ((proc (get-buffer-process (current-buffer))))
