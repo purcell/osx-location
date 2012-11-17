@@ -36,7 +36,8 @@
 ;; Comes bundled with a required executable called
 ;; EmacsLocationHelper, which does the communication with
 ;; CoreServices; if you don't trust me, you can build it yourself from
-;; the instructions here: https://gist.github.com/1416248
+;; the instructions at https://gist.github.com/1416248 or using the
+;; bundled Makefile.
 
 ;;; Code:
 

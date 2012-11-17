@@ -16,7 +16,8 @@ your `load-path`, and then `(require 'osx-location)`.
 If you don't trust the required bundled executable
 (`EmacsLocationHelper`) which does the communication with
 CoreServices, you can build it yourself from the
-[instructions here](https://gist.github.com/1416248).
+[instructions here](https://gist.github.com/1416248) or using the
+bundled `Makefile`.
 
 
 Usage
