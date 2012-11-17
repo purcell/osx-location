@@ -34,6 +34,10 @@ function which updates `calendar-latitude` and `calendar-longitude`
 [rase.el](https://github.com/m00natic/rase) to execute code
 automatically at sunrise or sunset.
 
+Hook functions take no arguments; when your hook function runs, it can
+use the freshly-updated values of `osx-location-latitude` and
+`osx-location-longitude`.
+
 [marmalade]: http://marmalade-repo.org
 [melpa]: http://melpa.milkbox.net
 

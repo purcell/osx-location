@@ -33,6 +33,10 @@
 ;; function which updates `calendar-latitude' and `calendar-longitude'
 ;; (defined in the built-in library `solar').
 
+;; Hook functions take no arguments; when your hook function runs, it
+;; can use the freshly-updated values of `osx-location-latitude' and
+;; `osx-location-longitude'.
+
 ;; Comes bundled with a required executable called
 ;; EmacsLocationHelper, which does the communication with
 ;; CoreServices; if you don't trust me, you can build it yourself from
