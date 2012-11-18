@@ -95,6 +95,9 @@ the same directory as this library."
       (setq osx-location-latitude (string-to-number (match-string 1))
             osx-location-longitude (string-to-number (match-string 2))
             osx-location-last-match-end-pos (match-end 0))
+      (dolist (match '(1 2))
+        (put-text-property (match-beginning match) (match-end match)
+                           'face 'font-lock-keyword-face))
       (run-hooks 'osx-location-changed-hook))))
 
 (defun osx-location-process-filter (proc string)
