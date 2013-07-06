@@ -45,6 +45,8 @@
 
 ;;; Code:
 
+(require 'find-func)
+
 (defgroup osx-location nil
   "Watch and respond to changes in geographical location on OS X"
   :group 'calendar)
