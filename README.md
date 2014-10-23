@@ -1,3 +1,6 @@
+[![Melpa Status](http://melpa.org/packages/osx-location-badge.svg)](http://melpa.org/#/osx-location)
+[![Melpa Stable Status](http://stable.melpa.org/packages/osx-location-badge.svg)](http://stable.melpa.org/#/osx-location)
+
 osx-location.el
 ===============
 
@@ -39,7 +42,7 @@ use the freshly-updated values of `osx-location-latitude` and
 `osx-location-longitude`.
 
 [marmalade]: http://marmalade-repo.org
-[melpa]: http://melpa.milkbox.net
+[melpa]: http://melpa.org
 
 <hr>
 
