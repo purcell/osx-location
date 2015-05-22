@@ -1,6 +1,6 @@
 ;;; osx-location.el --- Watch and respond to changes in geographical location on OS X
 
-;; Copyright (C) 2012 Steve Purcell
+;; Copyright (C) 2012-2015 Steve Purcell
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/osx-location
