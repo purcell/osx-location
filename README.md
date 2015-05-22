@@ -41,6 +41,18 @@ Hook functions take no arguments; when your hook function runs, it can
 use the freshly-updated values of `osx-location-latitude` and
 `osx-location-longitude`.
 
+Here's an example:
+
+```el
+(eval-after-load 'osx-location
+  '(when (eq system-type 'darwin)
+     (add-hook 'osx-location-changed-hook
+               (lambda ()
+                 (setq calendar-latitude osx-location-latitude
+                       calendar-longitude osx-location-longitude
+                       calendar-location-name (format "%s, %s" osx-location-latitude osx-location-longitude))))))
+```
+
 [marmalade]: http://marmalade-repo.org
 [melpa]: http://melpa.org
 
