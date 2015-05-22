@@ -92,7 +92,7 @@ the same directory as this library."
   (save-excursion
     (goto-char osx-location-last-match-end-pos)
     (when (re-search-forward
-           "latitude,logitude : \\(-?[0-9]+\\.[0-9]+\\), \\(-?[0-9]+\\.[0-9]+\\)"
+           "latitude,lon?gitude : \\(-?[0-9]+\\.[0-9]+\\), \\(-?[0-9]+\\.[0-9]+\\)"
            nil t)
       (setq osx-location-latitude (string-to-number (match-string 1))
             osx-location-longitude (string-to-number (match-string 2))
