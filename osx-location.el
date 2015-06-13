@@ -101,7 +101,7 @@ the same directory as this library."
   "Look for and respond to process output which indicates a location change."
   (save-excursion
     (goto-char osx-location-last-match-end-pos)
-    (when (re-search-forward
+    (while (re-search-forward
            "latitude,lon?gitude : \\(-?[0-9]+\\.[0-9]+\\), \\(-?[0-9]+\\.[0-9]+\\)"
            nil t)
       (setq osx-location-latitude (string-to-number (match-string 1))
