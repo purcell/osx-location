@@ -12,7 +12,7 @@ Installation
 =============
 
 If you choose not to use one of the convenient packages in
-[Melpa][melpa] and [Marmalade][marmalade], you'll need to add the
+[MELPA][melpa], you'll need to add the
 directory containing `osx-location.el` and `EmacsLocationHelper` to
 your `load-path`, and then `(require 'osx-location)`.
 
@@ -53,7 +53,6 @@ Here's an example:
                        calendar-location-name (format "%s, %s" osx-location-latitude osx-location-longitude))))))
 ```
 
-[marmalade]: http://marmalade-repo.org
 [melpa]: http://melpa.org
 
 <hr>
