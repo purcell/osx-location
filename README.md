@@ -1,5 +1,6 @@
 [![Melpa Status](http://melpa.org/packages/osx-location-badge.svg)](http://melpa.org/#/osx-location)
 [![Melpa Stable Status](http://stable.melpa.org/packages/osx-location-badge.svg)](http://stable.melpa.org/#/osx-location)
+<a href="https://www.patreon.com/sanityinc"><img alt="Support me" src="https://img.shields.io/badge/Support%20Me-%F0%9F%92%97-ff69b4.svg"></a>
 
 osx-location.el
 ===============
