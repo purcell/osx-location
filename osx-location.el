@@ -1,10 +1,12 @@
-;;; osx-location.el --- Watch and respond to changes in geographical location on OS X
+;;; osx-location.el --- Watch and respond to changes in geographical location on OS X  -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2012-2015 Steve Purcell
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/osx-location
 ;; Keywords: convenience, calendar
+;; Package-Requires: ((emacs "24.1"))
+;; Package-Version: 0-git
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
